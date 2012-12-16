@@ -3,14 +3,14 @@
 	$date = date(c);
 	$md5 = md5($date);
 	header("ETag: ".$md5);
-	// Define variables for later use
-	$startpopulation = 7095917544;
-	$starttime = strtotime('2012-12-16T07:38:40-06:00');
-	$currenttime = strtotime(date(c));
-	$interval = $currenttime - $starttime;
-	$growthrate = 2.49;
-	$currentpopulation = round($startpopulation + ($interval * $growthrate));
-	$formattedpopulation = number_format($currentpopulation,0,'.',' ')
+	// Calculate current world population
+	$startpopulation = 7095917544; // Start population value
+	$starttime = strtotime('2012-12-16T07:38:40-06:00'); // Start population time and date
+	$currenttime = strtotime(date(c)); // Get current time
+	$interval = $currenttime - $starttime; // Calculate interval in seconds between start time and date and now
+	$growthrate = 2.49; // Constant for population growth per second
+	$currentpopulation = round($startpopulation + ($interval * $growthrate)); // Calculate current population
+	$formattedpopulation = number_format($currentpopulation,0,'.',' ') // Add thousand separators for output
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
