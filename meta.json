@@ -1,0 +1,10 @@
+{
+    "owner_email" : "alby@bleary-id.co.uk",
+    "publication_api_version":"1.0",
+    "name": "World Population",
+    "description": "Displays the current world population.",
+    "delivered_on": "every day",
+    "send_timezone_info": false,
+    "send_delivery_count": false,
+    "external_configuration": false
+}
