@@ -2,8 +2,8 @@
     "owner_email" : "albyr@example.com",
     "publication_api_version":"1.0",
     "name": "World Population",
-    "description": "Displays the current world population.",
-    "delivered_on": "every day",
+    "description": "A weekly reminder of how depressingly insignificant you are.",
+    "delivered_on": "weekly on Mondays",
     "send_timezone_info": false,
     "send_delivery_count": false,
     "external_configuration": false
