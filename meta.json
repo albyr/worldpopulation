@@ -1,5 +1,5 @@
 {
-    "owner_email" : "alby@bleary-id.co.uk",
+    "owner_email" : "albyr@example.com",
     "publication_api_version":"1.0",
     "name": "World Population",
     "description": "Displays the current world population.",
