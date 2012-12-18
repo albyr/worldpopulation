@@ -4,11 +4,11 @@
 	$md5 = md5($date);
 	header("ETag: ".$md5);
 	// Calculate current world population
-	$startpopulation = 7095917544; // Start population value
-	$starttime = strtotime('2012-12-16T07:38:40-06:00'); // Start population time and date
+	$startpopulation = 7059350169; // Start population value
+	$starttime = strtotime('2012-12-18T07:42:40-06:00'); // Start population time and date
 	$currenttime = strtotime(date(c)); // Get current time
 	$interval = $currenttime - $starttime; // Calculate interval in seconds between start time and date and now
-	$growthrate = 2.49; // Constant for population growth per second
+	$growthrate = 2.55; // Constant for population growth per second
 	$currentpopulation = round($startpopulation + ($interval * $growthrate)); // Calculate current population
 	$formattedpopulation = number_format($currentpopulation,0,'.',' ') // Add thousand separators for output
 ?>
