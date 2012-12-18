@@ -1,6 +1,6 @@
 <?php
 	// Create eTag
-	$date = date(c);
+	$date = date(W);
 	$md5 = md5($date);
 	header("ETag: ".$md5);
 	// Calculate current world population
