@@ -1,6 +1,6 @@
 <?php
 	// Create eTag
-	$date = date(W);
+	$date = date(F); //eTag generated based on current month.
 	$md5 = md5($date);
 	header("ETag: ".$md5);
 	// Calculate current world population
