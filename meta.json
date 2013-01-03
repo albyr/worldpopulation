@@ -2,8 +2,8 @@
     "owner_email" : "albyr@example.com",
     "publication_api_version":"1.0",
     "name": "World Population",
-    "description": "A weekly reminder of how depressingly insignificant you are.",
-    "delivered_on": "weekly on Mondays",
+    "description": "A monthly reminder of how depressingly insignificant you are.",
+    "delivered_on": "on the 1st of every month",
     "send_timezone_info": false,
     "send_delivery_count": false,
     "external_configuration": false
