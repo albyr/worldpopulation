@@ -4,7 +4,7 @@
 	$md5 = md5($date);
 	header("ETag: ".$md5);
 	// Calculate current world population
-	$startpopulation = 7057267811; // Start population value
+	$startpopulation = 7057267761; // Start population value
 	$starttime = strtotime('2013-01-03T10:01:01-06:00'); // Start population time and date
 	$currenttime = strtotime(date(c)); // Get current time
 	$interval = $currenttime - $starttime; // Calculate interval in seconds between start time and date and now
